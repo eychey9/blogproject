@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ post.title }} - Blog Django</title>
+</head>
+<body>
+    <h1><a href="/">Blog Django</a></h1>
+    <div>
+        <p>published: {{ post.published_date }}</p>
+        <h2>{{ post.title }}</h2>
+        <p>{{ post.text|linebreaksbr }}</p>
+    </div>
+</body>
+</html>
